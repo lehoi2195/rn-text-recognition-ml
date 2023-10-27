@@ -7,4 +7,9 @@ RCT_EXTERN_METHOD(recognize
                   : (RCTPromiseResolveBlock)resolve withRejecter
                   : (RCTPromiseRejectBlock)reject)
 
+RCT_EXTERN_METHOD(recognizeText
+                  : (NSString *)imgPath withResolver
+                  : (RCTPromiseResolveBlock)resolve withRejecter
+                  : (RCTPromiseRejectBlock)reject)
+
 @end
