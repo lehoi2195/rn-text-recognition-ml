@@ -1,4 +1,3 @@
-import MLImage
 import MLKitTextRecognition
 import MLKitVision
 
